@@ -12,7 +12,7 @@ arch:
   - amd64
   - armv7
 ports:
-  3002/tcp: 3002
+  3001/tcp: 3002
 ports_description:
-  3002/tcp: Web interface
+  3001/tcp: Web interface
 image: "ghcr.io/therickys93/{arch}-addon-uptimekuma"
