@@ -1,8 +1,8 @@
 ---
 name: therickys93's Uptime Kuma
-version: dev
+version: 0.0.2
 slug: therickys93-uptime-kuma
-description: It is a self-hosted monitoring tool like "Uptime Robot"
+description: therickys93 version of uptimekuma
 url: https://github.com/therickys93/addon-uptimekuma
 codenotary: therickys93@gmail.com
 webui: http://[HOST]:[PORT:3002]
