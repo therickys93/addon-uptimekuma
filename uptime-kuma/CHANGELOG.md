@@ -3,6 +3,10 @@
 ## 0.0.8
 
 - update uptime kuma.
+
+## 0.0.8
+
+- update uptime kuma.
 - update cloudflare version.
 
 ## 0.0.7
