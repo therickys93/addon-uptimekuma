@@ -12,7 +12,7 @@ COPY requirements.txt /opt/
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Setup base
-ARG UPTIME_KUMA_COMMIT="9f85770bdc5322d888ef52bd6e8a1a0d30bd02eb"
+ARG UPTIME_KUMA_COMMIT="ddb8c333081ab92ba0cfdf4182c03b62c8a357c3"
 ARG CLOUDFLARED_VERSION="2025.6.1"
 ARG BUILD_ARCH=amd64
 # hadolint ignore=DL3003,DL3042
