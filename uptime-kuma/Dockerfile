@@ -13,7 +13,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Setup base
 ARG UPTIME_KUMA_COMMIT="ddb8c333081ab92ba0cfdf4182c03b62c8a357c3"
-ARG CLOUDFLARED_VERSION="2025.7.0"
+ARG CLOUDFLARED_VERSION="2025.8.1"
 ARG BUILD_ARCH=amd64
 # hadolint ignore=DL3003,DL3042
 RUN \
@@ -24,7 +24,7 @@ RUN \
     && apk add --no-cache \
         iputils=20240905-r0 \
         nodejs=22.16.0-r2 \
-        npm=11.3.0-r0 \
+        npm=11.3.0-r1 \
         python3=3.12.11-r0 \
         setpriv=2.41-r9 \
     \
