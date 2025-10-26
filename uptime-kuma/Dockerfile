@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base:18.1.4
+ARG BUILD_FROM=ghcr.io/hassio-addons/base:18.2.1
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -13,7 +13,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Setup base
 ARG UPTIME_KUMA_COMMIT="7040f0cf270fed5e645bca48dcc8de6923b0be14"
-ARG CLOUDFLARED_VERSION="2025.9.1"
+ARG CLOUDFLARED_VERSION="2025.10.0"
 ARG BUILD_ARCH=amd64
 # hadolint ignore=DL3003,DL3042
 RUN \
@@ -25,7 +25,7 @@ RUN \
         iputils=20240905-r0 \
         nodejs=22.16.0-r2 \
         npm=11.3.0-r1 \
-        python3=3.12.11-r0 \
+        python3=3.12.12-r0 \
         setpriv=2.41-r9 \
     \
     && mkdir -p /opt/uptime-kuma \
